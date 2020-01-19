@@ -25,3 +25,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
 REFERENCE_DEVICE := dalmore
+
+# Tegra Static libraries (Needed by HALs)
+PRODUCT_PACKAGES += \
+    libnvcameradata \
+    libnvcameraframedata \
+    libnvglcomposer \
+    libnvgr2dcomposer \
+    libnvviccomposer \
+    libnvmmtransport
+
