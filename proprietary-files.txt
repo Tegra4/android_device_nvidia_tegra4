@@ -1,5 +1,20 @@
 # Audio
+-vendor/lib/libaudioavp.so
+-vendor/lib/libnvoice.so
+-vendor/lib/libnvcapaudioservice.so
 
 # Camera
+-vendor/lib/libfcamdng.so
+-vendor/lib/libnvcamerahdr.so
 
 # Graphics
+-vendor/lib/libnvddk_2d_v2.so
+-vendor/lib/libnvblit.so
+-vendor/lib/libnvddk_vic.so
+
+# Media
+-vendor/lib/libnvtvmr.so
+-vendor/lib/libtsechdcp.so
+
+# Secure OS
+-lib/libsecure_hdcp_up.so
