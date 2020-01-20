@@ -19,4 +19,4 @@
 -vendor/lib/libtsechdcp.so
 
 # Secure OS
--lib/libsecure_hdcp_up.so
+-lib/libsecure_hdcp_up.so:vendor/lib/libsecure_hdcp_up.so
