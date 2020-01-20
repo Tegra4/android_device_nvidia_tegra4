@@ -38,3 +38,9 @@ PRODUCT_PACKAGES += \
     libnvviccomposer \
     libnvmmtransport
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.tegra \
+    libnvcam_imageencoder \
+    libnvodm_imager
+
