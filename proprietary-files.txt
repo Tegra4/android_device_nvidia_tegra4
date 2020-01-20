@@ -1,12 +1,15 @@
 # Audio
+-lib/libnvoice.so:vendor/lib/libnvoice.so
 -vendor/lib/libaudioavp.so
 -vendor/lib/libnvcapaudioservice.so
--lib/libnvoice.so:vendor/lib/libnvoice.so
 
 # Camera
 -vendor/lib/libfcamdng.so
 -vendor/lib/libnvcamerahdr.so
 -vendor/lib/libnvmm_camera_v3.so
+
+# Core (Device specific from bowser KK)
+-vendor/lib/libnvodm_query.so|db8ddaaffd126b033d5a9bad2d47b9f8bb994b3c
 
 # Graphics
 -vendor/lib/libnvblit.so
@@ -15,7 +18,6 @@
 
 # Media
 -vendor/lib/libnvtvmr.so
--vendor/lib/libnvodm_query.so
 -vendor/lib/libtsechdcp.so
 
 # Secure OS
