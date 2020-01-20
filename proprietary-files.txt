@@ -1,7 +1,7 @@
 # Audio
 -vendor/lib/libaudioavp.so
 -vendor/lib/libnvcapaudioservice.so
--vendor/lib/libnvoice.so
+-lib/libnvoice.so:vendor/lib/libnvoice.so
 
 # Camera
 -vendor/lib/libfcamdng.so
@@ -15,7 +15,6 @@
 
 # Media
 -vendor/lib/libnvtvmr.so
--vendor/lib/libnvtvmr_ucode.so
 -vendor/lib/libnvodm_query.so
 -vendor/lib/libtsechdcp.so
 
