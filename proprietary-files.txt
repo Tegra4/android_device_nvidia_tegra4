@@ -18,6 +18,7 @@
 -vendor/lib/libnvddk_vic.so
 
 # Media
+-vendor/lib/libnvfusebypass.so
 -vendor/lib/libnvtvmr.so
 -vendor/lib/libtsechdcp.so
 
