@@ -1,6 +1,7 @@
 # Audio
 -lib/libnvoice.so:vendor/lib/libnvoice.so
 -vendor/lib/libaudioavp.so
+-vendor/lib/libnvcam_imageencoder.so
 -vendor/lib/libnvcapaudioservice.so
 
 # Camera
