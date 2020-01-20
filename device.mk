@@ -24,6 +24,9 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
 
+# Get non-open-source specific aspects
+$(call inherit-product-if-exists, vendor/nvidia/tegra4/tegra4-vendor.mk)
+
 REFERENCE_DEVICE := dalmore
 
 # Tegra Static libraries (Needed by HALs)
