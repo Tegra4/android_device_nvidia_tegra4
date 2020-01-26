@@ -33,6 +33,7 @@ REFERENCE_DEVICE := dalmore
 PRODUCT_PACKAGES += \
     libnvcameradata \
     libnvcameraframedata \
+    libnvfxmath \
     libnvglcomposer \
     libnvgr2dcomposer \
     libnvviccomposer \
