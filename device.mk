@@ -39,8 +39,30 @@ PRODUCT_PACKAGES += \
     libnvviccomposer \
     libnvmmtransport
 
+# Audio (Audio Policy Disabled)
+PRODUCT_PACKAGES += \
+    audio.primary.tegra
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.tegra \
     libnvodm_imager
+
+# Core
+PRODUCT_PACKAGES += \
+   libnvodm_services \
+   libnvrm \
+   libnvrm_graphics
+   
+# Graphics
+PRODUCT_PACKAGES += \
+    gralloc.tegra \
+    hwcomposer.tegra \
+    libnvgr
+
+# Media
+PRODUCT_PACKAGES += \
+    libnvmm \
+    libnvmmlite \
+    libstagefrighthw
 
